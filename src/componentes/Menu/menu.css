@@ -23,7 +23,7 @@
 }
 
 .nav__logo img{
-     width: 160px;
+     width: 150px;
 }
 
 .nav__contact,
@@ -105,7 +105,8 @@
     }
 
     .nav__logo img{
-        width: 140px;
+    margin-top: 10px;
+        width: 120px;
     }
 
     .nav__list{
