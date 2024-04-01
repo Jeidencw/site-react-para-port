@@ -116,6 +116,12 @@
   color: black;
 }
 
+@media screen and (max-width: 992px){
+    .depoimentos .container{
+        width: 90%;
+    }
+}
+
 @media screen and (max-width: 768px){
     .slide-contentDepoimentos{
         margin: 0 10px;

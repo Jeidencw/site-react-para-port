@@ -27,14 +27,14 @@ const QuemSomos = () => {
 
     return(
         <section className="depoimentos section" id="depoimentos">
-            <div className='container'>
+            <div className='depoimentos__container container'>
                 {showGallery && <Gallery ref={galleryRef} />}
                 
                 <img src={galleryIcons} alt='icone galeria' className='icon__gallery' onClick={toggleGallery} />
-                <h2 className="sectiontitle depoimentostitle">Quem somos</h2>
+                <h2 className="section__title depoimentos__title">Quem somos</h2>
                 <p className="depoimentos__text">Vivamus sit amet feugiat risus. Ut sollicitudin sed ante sed rutrum. Praesent ut augue eget ante scelerisque sollicitudin at sed velit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeosvimento e na dor.<br /></p>
 
-                <span className="sectionsubtitle depoimentossubtitle">Depoimentos</span>
+                <span className="section__subtitle depoimentos__subtitle">Depoimentos</span>
                 
                 <Depoimentos />
             </div>
