@@ -23,6 +23,7 @@
     border-radius: 15px;
     padding: 5px;
     font-size: 28px;
+    margin-bottom: 20px;
 }
 
 .home__description img{
@@ -46,6 +47,7 @@
 
     .home__description{
         flex-basis: 20%;
+        margin-bottom: 0;
     }
 
     .home__image img{
