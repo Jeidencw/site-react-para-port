@@ -1,8 +1,70 @@
 .gallery{
     position: absolute;
     width: 100%;
+    max-width: 700px;
     height: 100%;
     z-index: 100;
-    background-color: rgba(0, 0, 0, .5);
+    background-color: white;
+    padding: 23px;
     border-radius: 15px;
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 0s, opacity 0.3s linear;
+}
+  
+.gallery__slides{
+    width: 100%;
+    height: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 15px;
+}
+
+.gallery__slides-thumbs{
+    width: 100%;
+    height: 30%;
+    padding: 10px 0;
+}
+
+.gallery__slides-thumbs img{
+    border-radius: 10px;
+}
+
+.gallery__slides img, 
+.gallery__slides-thumbs img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.gallery.show {
+    visibility: visible;
+    opacity: 1;
+}
+
+.gallery__slides-thumbs .swiper-slide{
+    opacity: 0.4;
+}
+
+.gallery__slides-thumbs .swiper-slide-thumb-active {
+    opacity: 1 !important;
+}
+
+
+.close-btn {
+    position: absolute;
+    top: 0;
+    right: 0;
+    cursor: pointer;
+    background: none;
+    border: none;
+    font-size: 20px;
+    padding: 5px;
+    border-radius: 50%;
+    transition: background-color 0.3s ease;
+}
+
+.close-btn:hover {
+    background-color: #eee;
 }

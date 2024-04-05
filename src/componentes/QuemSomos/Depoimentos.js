@@ -41,7 +41,7 @@ const depoimentos = [
     {
         id: 'KJGA$@CS',
         img: testemunha5,
-        name: 'Casção',
+        name: 'Cascão',
         description: 'lacus nisi scelerisque odio, eu iaculis ex quam sed dui.',
     },
     {

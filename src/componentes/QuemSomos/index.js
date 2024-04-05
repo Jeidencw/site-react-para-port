@@ -12,6 +12,10 @@ const QuemSomos = () => {
         setShowGallery(!showGallery)
     }
 
+    const closeGallery = () => {
+        setShowGallery(false)
+    }
+
     const handleClickOutside = (event) => {
         if (galleryRef.current && !galleryRef.current.contains(event.target)) {
             setShowGallery(false)
@@ -27,14 +31,16 @@ const QuemSomos = () => {
 
     return(
         <section className="depoimentos section" id="depoimentos">
-            <div className='depoimentos__container container'>
-                {showGallery && <Gallery ref={galleryRef} />}
+            <div className='container'>
+                {showGallery && <Gallery ref={galleryRef} closeGallery={closeGallery} />}
                 
-                <img src={galleryIcons} alt='icone galeria' className='icon__gallery' onClick={toggleGallery} />
-                <h2 className="section__title depoimentos__title">Quem somos</h2>
+                <a href="#depoimentos">
+                    <img src={galleryIcons} alt='icone galeria' className='icon__gallery' onClick={toggleGallery} />             
+                </a>
+                <h2 className="section__title depoimentostitle">Quem somos</h2>
                 <p className="depoimentos__text">Vivamus sit amet feugiat risus. Ut sollicitudin sed ante sed rutrum. Praesent ut augue eget ante scelerisque sollicitudin at sed velit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeosvimento e na dor.<br /></p>
 
-                <span className="section__subtitle depoimentos__subtitle">Depoimentos</span>
+                <span className="section__title depoimentos__subtitle">Depoimentos</span>
                 
                 <Depoimentos />
             </div>

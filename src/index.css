@@ -111,6 +111,7 @@ img {
 .section__title {
   font-size: var(--h1-font-size);
   color: var(--title-color);
+  margin-bottom: 15px;
 }
 
 .section__subtitle {
@@ -182,6 +183,10 @@ img {
 @media screen and (max-width: 768px) {
   body{
     margin-top: 1rem;
+  }
+
+  .section{
+    padding: 2.5rem 0 1rem;
   }
 
   .header{

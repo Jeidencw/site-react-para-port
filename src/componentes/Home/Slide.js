@@ -10,25 +10,25 @@ import { services } from '../Servicos'
 const servicosSlides = [
     {
         name: 'Slide 1',
-        foto: 'red',
+        foto: '#D8BFD8',
         id: 'jgsad873',
         description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse a libero augue.'
     },
     {
         name: 'Slide 2',
-        foto: 'blue',
+        foto: '#9370DB',
         id: 'ma,n34',
         description: 'Donec felis nulla, finibus ac purus ut, tempus venenatis arcu. Nulla nec congue urna.'
     },
     {
         name: 'Slide 3',
-        foto: 'green',
+        foto: '#98FB98',
         id: 'nbsd3934',
         description: 'Praesent et tristique purus, non consectetur eros. '
     },
     {
         name: 'Slide 4',
-        foto: 'purple',
+        foto: '#8FBC8F',
         id: 'qwoiey3846',
         description: 'Vestibulum et venenatis lectus. Donec enim ante, varius id ultrices non, molestie id orci. Nam ut rutrum diam.'
     }

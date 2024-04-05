@@ -1,3 +1,7 @@
+.localizacao{
+    margin-left: -10px;
+}
+
 .localizacao__container{
     min-height: 90vh;
     display: flex;
@@ -5,6 +9,7 @@
     justify-content: center;
     flex-direction: column;
 }
+
 .localizacao__title{
     margin-bottom: 4rem;
 }
@@ -22,9 +27,8 @@
 iframe{
     width: 100%;
     height: 60vh;
-    margin-top: -100px;
-    margin-bottom: 20px;
     border-radius: 15px;
+    margin: -100px auto 20px;
 }
 
 @media screen and (max-width: 992px) {
