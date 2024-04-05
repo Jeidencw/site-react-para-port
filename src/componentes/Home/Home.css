@@ -18,13 +18,11 @@
 
 .home__description {
     text-align: center;
-    width: 90%;
     color: var(--title-color);
-    font-size: 18px;
     font-weight: 500;
-    margin: 10px;
     border-radius: 15px;
     padding: 5px;
+    font-size: 28px;
 }
 
 .home__description img{
@@ -47,16 +45,10 @@
     }
 
     .home__description{
-        margin: 20px 0;
-        font-size: 22px;
-        flex-basis: 30%;
-    }
-
-    .home__description img{
-        height: 22px;
+        flex-basis: 20%;
     }
 
     .home__image img{
-        flex-basis: 70%;
+        flex-basis: 80%;
     }
 }
