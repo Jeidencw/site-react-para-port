@@ -22,9 +22,7 @@ const images = [
     "15.jpg",
     "16.jpg",
     "17.jpg",
-    "18.jpg",
-    "19.jpg",
-    "20.jpg",
+    "18.jpg"
 ]
 
 const Gallery = forwardRef((props, ref) => {
@@ -54,7 +52,7 @@ const Gallery = forwardRef((props, ref) => {
                 onSwiper={setThumbsSwiper}
                 loop={true}
                 spaceBetween={10}
-                slidesPerView={4}
+                slidesPerView={4.2}
                 freeMode={true}
                 watchSlidesProgress={true}
                 modules={[FreeMode, Thumbs]}
